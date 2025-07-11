@@ -797,6 +797,59 @@ nav {
     font-weight: bold;
 }
 
+.breadcrumb-nav {
+  background-color: #f8f9fa;
+  padding: 12px 0;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.95rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.breadcrumb {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+.breadcrumb li {
+  display: flex;
+  align-items: center;
+  color: #555;
+}
+
+.breadcrumb li a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.breadcrumb li a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.breadcrumb li::after {
+  content: "›";
+  margin: 0 8px;
+  color: #999;
+  font-size: 1rem;
+}
+
+.breadcrumb li:last-child::after {
+  content: "";
+  margin: 0;
+}
+
+.breadcrumb .active {
+  font-weight: 600;
+  color: #333;
+  pointer-events: none;
+}
+
 /* ========== CTA Section ========== */
 .cta-section {
     background-color: var(--darker);

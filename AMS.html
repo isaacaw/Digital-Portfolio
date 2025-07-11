@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Auto Machinery Website | Isaac Aw</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet"/>
+</head>
+
+<body>
+  <div class="particles" id="particles-js"></div>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <nav>
+        <a href="index.html" class="logo">IA</a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html" class="active">Projects</a></li>
+          <li><a href="contact.html">Connect</a></li>
+        </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Project Section -->
+  <!-- Hero Section -->
+
+    <section class="hero project-hero">
+    <div class="container">
+        <h1 class="name">Auto Machinery Singapore</h1>
+        <p class="tagline">Full-stack web platform for managing thousands of automotive products efficiently.</p>
+    </div>
+    </section>
+
+  <!-- Breadcrumb Navigation -->
+  <nav aria-label="breadcrumb" class="breadcrumb-nav">
+    <div class="container">
+      <ol class="breadcrumb">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li class="active">AMS</li> <!-- Change to Auto Machinery for that page -->
+      </ol>
+    </div>
+  </nav>
+
+    <!-- Overview -->
+    <section class="about-section">
+    <div class="container">
+        <div class="about-grid">
+        <div class="about-content">
+            <h4>Project Objective</h4>
+            <p>
+            The Auto Machinery Inventory System was developed to support a growing automotive parts supplier in Singapore
+            by digitalizing their inventory process. The objective was to simplify search, categorization, and updates for thousands
+            of products, ensuring smooth operations for both staff and clients.
+            </p>
+
+            <h4>Vision</h4>
+            <p>
+            Our vision was to build a platform that could scale with product growth, enable seamless filtering and CRUD management, 
+            and reduce reliance on manual Excel-based workflows.
+            </p>
+        </div>
+
+        <div class="about-video" style="margin-top: 1.5rem; text-align: center;">
+        <video controls style="max-width: 100%; width: 600px; border-radius: 12px;">
+            <source src="assets/AMSvideo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        </div>
+
+        </div>
+    </div>
+    </section>
+
+    <!-- My Role -->
+    <section class="about-section">
+    <div class="container">
+        <div class="about-content">
+        <h4>My Role in the Project</h4>
+        <ul>
+            <li>Designed and implemented key navigation components such as Home, About Us, and Contact Us pages, with content dynamically editable via an admin panel.</li>
+            <li>Built a Content Management System like admin interface to manage static content using MySQL, enabling updates without touching code.</li>
+            <li>Developed product management functionality including Create, Read, Update, and Delete (CRUD) features in the admin panel, which reflect in real time on the customer-facing product listings.</li>
+            <li>Engineered a shopping cart system that handles adding, viewing, and removing products linking frontend interactions to backend logic.</li>
+            <li>Ensured the system could handle a large dataset of automotive products efficiently by implementing pagination, search filters, and optimized queries.</li>
+        </ul>
+        <div class="side-by-side-images">
+        <img src="assets/project1-role-experiencecart.png" alt="Cart Function Screenshot" />
+        <img src="assets/project1-role-experienceadmin.png" alt="Admin Panel Screenshot" />
+        </div>
+        <h4>Challenges & Key Learnings</h4>
+        <p>
+            Working with thousands of products required efficient backend logic and optimized queries.
+            I learned to use indexed DB fields, lazy loading components, and how to break monolithic UI into reusable modules.
+            <br><br>
+            Working with thousands of automotive products required designing an efficient backend with optimized SQL queries and indexed database fields to ensure fast response times. I implemented lazy-loaded components and broke down the monolithic UI into reusable, modular layouts for better scalability and performance.
+            <br><br>
+            Additionally, I built a dynamic website system where content and product details could be fully managed through an admin dashboard, storing and retrieving data from a MySQL database. This taught me how to balance frontend flexibility with backend control, while reinforcing my understanding of CRUD operations, data validation, and content management workflows.
+        </p>
+        <p>Through this project, I gained hands-on experience with:</p>
+        <ul>
+            <li>Structuring large datasets efficiently</li>
+            <li>Building scalable admin interfaces</li>
+            <li>Writing clean, maintainable backend logic</li>
+            <li>Applying real-world web development practices</li>
+        </ul>
+
+        </div>
+    </div>
+    </section>
+
+    <!-- Tech Stack -->
+    <section class="about-section">
+    <div class="container">
+        <div class="expertise-section">
+        <h5>Technologies Used</h5>
+        <ul class="tech-list">
+            <li>React.js</li>
+            <li>Node.js & Express</li>
+            <li>MySQL</li>
+            <li>Bootstrap</li>
+            <li>API</li>
+            <li>GitHub</li>
+        </ul>
+        </div>
+    </div>
+    </section>
+
+    <!-- Screenshots -->
+    <section class="projects-section">
+    <div class="container">
+        <div class="side-by-side-images">
+        <div class="project-card">
+            <img src="assets/project1-product-diagram.png" alt="Product diagram" />
+        </div>
+        <div class="project-card">
+            <img src="assets/project1-admin.png" alt="Admin CRUD Interface" />
+        </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+    <div class="container">
+        <div class="cta-content">
+        <a href="https://github.com/isaacaw/auto-machinery" class="btn primary" target="_blank">
+            <i class="fab fa-github"></i> View on GitHub
+        </a>
+        <a href="#" class="btn secondary" target="_blank">
+            <i class="fas fa-external-link-alt"></i> Live Demo
+        </a>
+        </div>
+    </div>
+    </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <h5>Isaac Aw</h5>
+          <p>Building the digital foundations for tomorrow's solutions.</p>
+        </div>
+        <div class="footer-links">
+          <h5>Navigation</h5>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Connect</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h5>Follow Me</h5>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Isaac Aw. All code and designs crafted with care.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/particles.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Auto Machinery Website | Isaac Aw</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet"/>
+</head>
+
+<body>
+  <div class="particles" id="particles-js"></div>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <nav>
+        <a href="index.html" class="logo">IA</a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html" class="active">Projects</a></li>
+          <li><a href="contact.html">Connect</a></li>
+        </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Project Section -->
+  <!-- Hero Section -->
+
+    <section class="hero project-hero">
+    <div class="container">
+        <h1 class="name">Verde Vista Hotel</h1>
+        <p class="tagline">A seamless hotel website with calendar-based room booking and cart functionality.</p>
+    </div>
+    </section>
+
+  <!-- Breadcrumb Navigation -->
+  <nav aria-label="breadcrumb" class="breadcrumb-nav">
+    <div class="container">
+      <ol class="breadcrumb">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li class="active">Verde Vista Hotel</li> <!-- Change to Auto Machinery for that page -->
+      </ol>
+    </div>
+  </nav>
+
+    <!-- Overview -->
+    <section class="about-section">
+    <div class="container">
+        <div class="about-grid">
+        <div class="about-content">
+            <h4>Project Objective</h4>
+            <p>
+             This hotel website project was designed to offer users a smooth and intuitive hotel booking experience. 
+            It allows users to view available room types, select their desired check-in and check-out dates using a calendar,
+            and add rooms to their cart before checking out.
+            </p>
+
+            <h4>Vision</h4>
+            <p>
+            Our vision was to simulate a real-world e-booking system, incorporating both frontend design and backend functionality
+            to support reservation workflows, date management, and pricing logic.
+            </p>
+            </p>
+        </div>
+
+        <div class="about-video" style="margin-top: 1.5rem; text-align: center;">
+        <video controls style="max-width: 100%; width: 600px; border-radius: 12px;">
+            <source src="assets/hotelvideo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        </div>
+
+        </div>
+    </div>
+    </section>
+
+    <!-- My Role -->
+    <section class="about-section">
+    <div class="container">
+        <div class="about-content">
+        <h4>My Role in the Project</h4>
+        <ul>
+            <li>Designed the user interface for the facilities and room listing pages.</li>
+            <li>Implemented a calendar feature allowing users to select booking dates visually.</li>
+            <li>Created a cart function that enables users to add room bookings and review them before confirming.</li>
+            <li>Connected frontend pages to backend logic using Flask, enabling real-time room listing updates and dynamic interactions.</li>
+            <li>Developed admin-side functions to add, edit, and remove hotel rooms, with updates instantly reflected on the customer-facing pages.</li>
+        </ul>
+
+        <div class="side-by-side-images">
+        <img src="assets/hotel-cart.png" alt="Cart Function Screenshot" />
+        <img src="assets/hotel-rooms.png" alt="Rooms Panel Screenshot" />
+        </div>
+        <h4>Challenges & Key Learnings</h4>
+        <p>
+            Implementing the calendar-based booking feature required robust date validation and handling scenarios like overlapping or invalid date ranges.
+            <br><br>
+            I connected the frontend booking interface to Flask routes, storing and updating room data dynamically. I also managed user-specific booking sessions using Flask’s built-in session handling, ensuring a smooth cart experience.
+            <br><br>
+            The project reinforced best practices for routing, form handling (POST/GET), and linking frontend inputs with backend storage—all while keeping the interface user-friendly.
+        </p>
+
+        <p>Through this project, I gained hands-on experience with:</p>
+        <ul>
+            <li>Flask framework for routing and backend logic</li>
+            <li>Validating calendar-based date selections</li>
+            <li>Managing booking sessions using Flask</li>
+            <li>Integrating UI interactions with backend data updates</li>
+        </ul>
+        </div>
+    </div>
+    </section>
+
+    <!-- Tech Stack -->
+    <section class="about-section">
+    <div class="container">
+        <div class="expertise-section">
+        <h5>Technologies Used</h5>
+        <ul class="tech-list">
+            <li>Bootstrap</li>
+            <li>API</li>
+            <li>GitHub</li>
+            <li>Flask</li>
+        </ul>
+
+        <h5>Languages Used</h5>
+        <ul class="tech-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+      </ul>
+        </div>
+    </div>
+    </section>
+
+    <!-- Screenshots -->
+    <section class="projects-section">
+    <div class="container">
+        <div class="side-by-side-images">
+        <div class="project-card">
+            <img src="assets/hotel1.png" alt="Product diagram" />
+        </div>
+        <div class="project-card">
+            <img src="assets/hotel2.png" alt="Admin CRUD Interface" />
+        </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+    <div class="container">
+        <div class="cta-content">
+        <a href="https://github.com/isaacaw/auto-machinery" class="btn primary" target="_blank">
+            <i class="fab fa-github"></i> View on GitHub
+        </a>
+        <a href="#" class="btn secondary" target="_blank">
+            <i class="fas fa-external-link-alt"></i> Live Demo
+        </a>
+        </div>
+    </div>
+    </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <h5>Isaac Aw</h5>
+          <p>Building the digital foundations for tomorrow's solutions.</p>
+        </div>
+        <div class="footer-links">
+          <h5>Navigation</h5>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Connect</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h5>Follow Me</h5>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Isaac Aw. All code and designs crafted with care.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/particles.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
